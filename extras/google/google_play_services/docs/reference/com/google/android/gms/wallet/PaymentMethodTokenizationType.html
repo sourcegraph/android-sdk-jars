@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link rel="shortcut icon" type="image/x-icon" href="../../../../../../favicon.ico" />
+<title>
+
+  PaymentMethodTokenizationType |
+
+Doclava
+
+</title>
+<link href="../../../../../../assets/doclava-developer-docs.css" rel="stylesheet" type="text/css" />
+<link href="../../../../../../assets/customizations.css" rel="stylesheet" type="text/css" />
+<script src="../../../../../../assets/search_autocomplete.js" type="text/javascript"></script>
+<script src="../../../../../../assets/jquery-resizable.min.js" type="text/javascript"></script>
+<script src="../../../../../../assets/doclava-developer-docs.js" type="text/javascript"></script>
+<script src="../../../../../../assets/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  setToRoot("../../../../../../");
+</script>
+<script src="../../../../../../assets/doclava-developer-reference.js" type="text/javascript"></script>
+<script src="../../../../../../navtree_data.js" type="text/javascript"></script>
+<script src="../../../../../../assets/customizations.js" type="text/javascript"></script>
+<noscript>
+  <style type="text/css">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding:0;}
+    #side-nav .toggle-list ul {display:block;}
+    #resize-packages-nav{border-bottom:3px solid #666;}
+  </style>
+</noscript>
+</head>
+
+<body class="" itemscope itemtype="http://schema.org/Article">
+
+<div id="header">
+    <div id="headerLeft">
+      
+    </div>
+    <div id="headerRight">
+        
+  <div id="search" >
+      <div id="searchForm">
+          <form accept-charset="utf-8" class="gsc-search-box" 
+                onsubmit="return submit_search()">
+            <table class="gsc-search-box" cellpadding="0" cellspacing="0"><tbody>
+                <tr>
+                  <td class="gsc-input">
+                    <input id="search_autocomplete" class="gsc-input" type="text" size="33" autocomplete="off"
+                      title="search developer docs" name="q"
+                      value="search developer docs"
+                      onFocus="search_focus_changed(this, true)"
+                      onBlur="search_focus_changed(this, false)"
+                      onkeydown="return search_changed(event, true, '../../../../../../')"
+                      onkeyup="return search_changed(event, false, '../../../../../../')" />
+                  <div id="search_filtered_div" class="no-display">
+                      <table id="search_filtered" cellspacing=0>
+                      </table>
+                  </div>
+                  </td>
+                  <td class="gsc-search-button">
+                    <input type="submit" value="Search" title="search" id="search-button" class="gsc-search-button" />
+                  </td>
+                  <td class="gsc-clear-button">
+                    <div title="clear results" class="gsc-clear-button">&nbsp;</div>
+                  </td>
+                </tr></tbody>
+              </table>
+          </form>
+      </div><!-- searchForm -->
+  </div><!-- search -->
+    </div><!-- headerRight -->
+</div><!-- header -->
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    <div class="g-unit g-first side-nav-resizable" id="side-nav">
+      <div id="swapper">
+        <div id="nav-panels">
+          <div id="resize-packages-nav">
+            <div id="packages-nav">
+              <div id="index-links"><nobr>
+                <a href="../../../../../../reference/packages.html"  >Package Index</a> | 
+                <a href="../../../../../../reference/classes.html" >Class Index</a></nobr>
+              </div>
+              <ul>
+                
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/package-summary.html">com.google.android.gms</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/actions/package-summary.html">com.google.android.gms.actions</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/ads/package-summary.html">com.google.android.gms.ads</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/ads/doubleclick/package-summary.html">com.google.android.gms.ads.doubleclick</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/ads/formats/package-summary.html">com.google.android.gms.ads.formats</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/ads/identifier/package-summary.html">com.google.android.gms.ads.identifier</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/ads/mediation/package-summary.html">com.google.android.gms.ads.mediation</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/ads/mediation/admob/package-summary.html">com.google.android.gms.ads.mediation.admob</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/ads/mediation/customevent/package-summary.html">com.google.android.gms.ads.mediation.customevent</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/ads/purchase/package-summary.html">com.google.android.gms.ads.purchase</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/ads/reward/package-summary.html">com.google.android.gms.ads.reward</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/ads/reward/mediation/package-summary.html">com.google.android.gms.ads.reward.mediation</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/ads/search/package-summary.html">com.google.android.gms.ads.search</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/analytics/package-summary.html">com.google.android.gms.analytics</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/analytics/ecommerce/package-summary.html">com.google.android.gms.analytics.ecommerce</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/appindexing/package-summary.html">com.google.android.gms.appindexing</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/appinvite/package-summary.html">com.google.android.gms.appinvite</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/auth/package-summary.html">com.google.android.gms.auth</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/auth/account/package-summary.html">com.google.android.gms.auth.account</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/auth/api/package-summary.html">com.google.android.gms.auth.api</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/auth/api/credentials/package-summary.html">com.google.android.gms.auth.api.credentials</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/auth/api/signin/package-summary.html">com.google.android.gms.auth.api.signin</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/awareness/package-summary.html">com.google.android.gms.awareness</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/awareness/fence/package-summary.html">com.google.android.gms.awareness.fence</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/awareness/snapshot/package-summary.html">com.google.android.gms.awareness.snapshot</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/awareness/state/package-summary.html">com.google.android.gms.awareness.state</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/cast/package-summary.html">com.google.android.gms.cast</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/cast/framework/package-summary.html">com.google.android.gms.cast.framework</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/cast/framework/media/package-summary.html">com.google.android.gms.cast.framework.media</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/cast/framework/media/uicontroller/package-summary.html">com.google.android.gms.cast.framework.media.uicontroller</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/cast/framework/media/widget/package-summary.html">com.google.android.gms.cast.framework.media.widget</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/cast/games/package-summary.html">com.google.android.gms.cast.games</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/common/package-summary.html">com.google.android.gms.common</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/common/api/package-summary.html">com.google.android.gms.common.api</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/common/data/package-summary.html">com.google.android.gms.common.data</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/common/images/package-summary.html">com.google.android.gms.common.images</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/drive/package-summary.html">com.google.android.gms.drive</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/drive/events/package-summary.html">com.google.android.gms.drive.events</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/drive/metadata/package-summary.html">com.google.android.gms.drive.metadata</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/drive/query/package-summary.html">com.google.android.gms.drive.query</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/drive/widget/package-summary.html">com.google.android.gms.drive.widget</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/fitness/package-summary.html">com.google.android.gms.fitness</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/fitness/data/package-summary.html">com.google.android.gms.fitness.data</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/fitness/request/package-summary.html">com.google.android.gms.fitness.request</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/fitness/result/package-summary.html">com.google.android.gms.fitness.result</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/fitness/service/package-summary.html">com.google.android.gms.fitness.service</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/games/package-summary.html">com.google.android.gms.games</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/games/achievement/package-summary.html">com.google.android.gms.games.achievement</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/games/event/package-summary.html">com.google.android.gms.games.event</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/games/leaderboard/package-summary.html">com.google.android.gms.games.leaderboard</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/games/multiplayer/package-summary.html">com.google.android.gms.games.multiplayer</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/games/multiplayer/realtime/package-summary.html">com.google.android.gms.games.multiplayer.realtime</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/games/multiplayer/turnbased/package-summary.html">com.google.android.gms.games.multiplayer.turnbased</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/games/quest/package-summary.html">com.google.android.gms.games.quest</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/games/request/package-summary.html">com.google.android.gms.games.request</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/games/snapshot/package-summary.html">com.google.android.gms.games.snapshot</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/games/stats/package-summary.html">com.google.android.gms.games.stats</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/games/video/package-summary.html">com.google.android.gms.games.video</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/gcm/package-summary.html">com.google.android.gms.gcm</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/identity/intents/package-summary.html">com.google.android.gms.identity.intents</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/identity/intents/model/package-summary.html">com.google.android.gms.identity.intents.model</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/iid/package-summary.html">com.google.android.gms.iid</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/instantapps/package-summary.html">com.google.android.gms.instantapps</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/location/package-summary.html">com.google.android.gms.location</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/location/places/package-summary.html">com.google.android.gms.location.places</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/location/places/ui/package-summary.html">com.google.android.gms.location.places.ui</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/maps/package-summary.html">com.google.android.gms.maps</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/maps/model/package-summary.html">com.google.android.gms.maps.model</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/measurement/package-summary.html">com.google.android.gms.measurement</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/nearby/package-summary.html">com.google.android.gms.nearby</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/nearby/connection/package-summary.html">com.google.android.gms.nearby.connection</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/nearby/messages/package-summary.html">com.google.android.gms.nearby.messages</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/nearby/messages/audio/package-summary.html">com.google.android.gms.nearby.messages.audio</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/panorama/package-summary.html">com.google.android.gms.panorama</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/plus/package-summary.html">com.google.android.gms.plus</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/plus/model/people/package-summary.html">com.google.android.gms.plus.model.people</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/safetynet/package-summary.html">com.google.android.gms.safetynet</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/search/package-summary.html">com.google.android.gms.search</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/security/package-summary.html">com.google.android.gms.security</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/tagmanager/package-summary.html">com.google.android.gms.tagmanager</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/tasks/package-summary.html">com.google.android.gms.tasks</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/vision/package-summary.html">com.google.android.gms.vision</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/vision/barcode/package-summary.html">com.google.android.gms.vision.barcode</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/vision/face/package-summary.html">com.google.android.gms.vision.face</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/vision/text/package-summary.html">com.google.android.gms.vision.text</a></li>
+    <li class="selected api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/wallet/package-summary.html">com.google.android.gms.wallet</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/wallet/fragment/package-summary.html">com.google.android.gms.wallet.fragment</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/android/gms/wearable/package-summary.html">com.google.android.gms.wearable</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/firebase/package-summary.html">com.google.firebase</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/firebase/analytics/package-summary.html">com.google.firebase.analytics</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/firebase/appindexing/package-summary.html">com.google.firebase.appindexing</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/firebase/appindexing/builders/package-summary.html">com.google.firebase.appindexing.builders</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/firebase/auth/package-summary.html">com.google.firebase.auth</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/firebase/crash/package-summary.html">com.google.firebase.crash</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/firebase/database/package-summary.html">com.google.firebase.database</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/firebase/iid/package-summary.html">com.google.firebase.iid</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/firebase/messaging/package-summary.html">com.google.firebase.messaging</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/firebase/provider/package-summary.html">com.google.firebase.provider</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/firebase/remoteconfig/package-summary.html">com.google.firebase.remoteconfig</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../../../reference/com/google/firebase/storage/package-summary.html">com.google.firebase.storage</a></li>
+              </ul><br/>
+            </div> <!-- end packages -->
+          </div> <!-- end resize-packages -->
+          <div id="classes-nav">
+            <ul>
+              
+    <li><h2>Interfaces</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/LineItem.Role.html">LineItem.Role</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/NotifyTransactionStatusRequest.Status.html">NotifyTransactionStatusRequest.Status</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/NotifyTransactionStatusRequest.Status.Error.html">NotifyTransactionStatusRequest.Status.Error</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/Payments.html">Payments</a></li>
+      </ul>
+    </li>
+              
+    <li><h2>Classes</h2>
+      <ul>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/Cart.html">Cart</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/Cart.Builder.html">Cart.Builder</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/CountrySpecification.html">CountrySpecification</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/EnableWalletOptimizationReceiver.html">EnableWalletOptimizationReceiver</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/FullWallet.html">FullWallet</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/FullWalletRequest.html">FullWalletRequest</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/FullWalletRequest.Builder.html">FullWalletRequest.Builder</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/GiftCardWalletObject.html">GiftCardWalletObject</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/InstrumentInfo.html">InstrumentInfo</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/IsReadyToPayRequest.html">IsReadyToPayRequest</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/IsReadyToPayRequest.Builder.html">IsReadyToPayRequest.Builder</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/LineItem.html">LineItem</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/LineItem.Builder.html">LineItem.Builder</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/LoyaltyWalletObject.html">LoyaltyWalletObject</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/MaskedWallet.html">MaskedWallet</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/MaskedWallet.Builder.html">MaskedWallet.Builder</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/MaskedWalletRequest.html">MaskedWalletRequest</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/MaskedWalletRequest.Builder.html">MaskedWalletRequest.Builder</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/NotifyTransactionStatusRequest.html">NotifyTransactionStatusRequest</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/NotifyTransactionStatusRequest.Builder.html">NotifyTransactionStatusRequest.Builder</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/OfferWalletObject.html">OfferWalletObject</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/PaymentInstrumentType.html">PaymentInstrumentType</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/PaymentMethodToken.html">PaymentMethodToken</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/PaymentMethodTokenizationParameters.html">PaymentMethodTokenizationParameters</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/PaymentMethodTokenizationParameters.Builder.html">PaymentMethodTokenizationParameters.Builder</a></li>
+          <li class="selected api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/PaymentMethodTokenizationType.html">PaymentMethodTokenizationType</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/ProxyCard.html">ProxyCard</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/Wallet.html">Wallet</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/Wallet.WalletOptions.html">Wallet.WalletOptions</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/Wallet.WalletOptions.Builder.html">Wallet.WalletOptions.Builder</a></li>
+          <li class="api apilevel-"><a href="../../../../../../reference/com/google/android/gms/wallet/WalletConstants.html">WalletConstants</a></li>
+      </ul>
+    </li>
+              
+              
+              
+            </ul><br/>
+          </div><!-- end classes -->
+        </div><!-- end nav-panels -->
+        <div id="nav-tree" style="display:none">
+          <div id="index-links"><nobr>
+            <a href="../../../../../../reference/packages.html"  >Package Index</a> | 
+            <a href="../../../../../../reference/classes.html" >Class Index</a></nobr>
+          </div>
+        </div><!-- end nav-tree -->
+      </div><!-- end swapper -->
+    </div> <!-- end side-nav -->
+    <script>
+      if (!isMobile) {
+        $("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("../../../../../../");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="api-info-block">
+
+
+
+  
+   
+  
+  
+  
+  
+
+
+<div class="sum-details-links">
+
+Summary:
+
+
+
+
+
+  <a href="#constants">Constants</a>
+  
+
+
+
+
+
+
+
+
+
+  &#124; <a href="#inhmethods">Inherited Methods</a>
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+<div class="api-level">
+  
+  
+  
+
+</div>
+</div><!-- end api-info-block -->
+
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<div id="jd-header">
+    public
+     
+    final 
+    
+    class
+<h1 itemprop="name">PaymentMethodTokenizationType</h1>
+
+
+
+  
+    extends Object<br/>
+  
+  
+  
+
+  
+  
+  
+
+
+</div><!-- end header -->
+
+<div id="naMessage"></div>
+
+<div id="jd-content" class="api apilevel-">
+<table class="jd-inheritance-table">
+
+
+    <tr>
+         	
+        <td colspan="2" class="jd-inheritance-class-cell">java.lang.Object</td>
+    </tr>
+    
+
+    <tr>
+        
+            <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
+         	
+        <td colspan="1" class="jd-inheritance-class-cell">com.google.android.gms.wallet.PaymentMethodTokenizationType</td>
+    </tr>
+    
+
+</table>
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Class Overview</h2>
+<p itemprop="articleBody">Payment method tokenization types.
+
+ <p>Integrator can configure <code><a href="../../../../../../reference/com/google/android/gms/wallet/MaskedWalletRequest.html">MaskedWalletRequest</a></code> to tokenize the credit card selected by
+ the user for a transaction using one of the tokenization types listed below.
+ When tokenization is used the token for the selected credit card can be retrieved by calling
+ <code><a href="../../../../../../reference/com/google/android/gms/wallet/FullWallet.html#getPaymentMethodToken()">getPaymentMethodToken()</a></code>.
+</p>
+
+
+
+
+
+
+</div><!-- jd-descr -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+<table id="constants" class="jd-sumtable"><tr><th colspan="12">Constants</th></tr>
+
+
+    
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../../../../reference/com/google/android/gms/wallet/PaymentMethodTokenizationType.html#NETWORK_TOKEN">NETWORK_TOKEN</a></td>
+        <td class="jd-descrcol" width="100%">When this type is used the credit card selected by the user will be tokenized
+ using network token APIs.</td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../../../../reference/com/google/android/gms/wallet/PaymentMethodTokenizationType.html#PAYMENT_GATEWAY">PAYMENT_GATEWAY</a></td>
+        <td class="jd-descrcol" width="100%">When this type is used the credit card selected by the user will be tokenized
+ using payment gateway API.</td>
+    </tr>
+    
+    
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="inhmethods" class="jd-sumtable"><tr><th>
+  <a href="#" class="toggle-all" onclick="return toggleAllInherited(this, null)">[Expand]</a>
+  <div style="clear:left;">Inherited Methods</div></th></tr>
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-java.lang.Object" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-java.lang.Object-trigger"
+          src="../../../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From class
+
+  java.lang.Object
+
+<div id="inherited-methods-java.lang.Object">
+  <div id="inherited-methods-java.lang.Object-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-java.lang.Object-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            Object</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">clone</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">equals</span>(Object arg0)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">finalize</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            final
+            
+            
+            Class&lt;?&gt;</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">getClass</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">hashCode</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notify</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notifyAll</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            String</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">toString</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0, int arg1)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>()</nobr>
+        
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+</table>
+
+
+</div><!-- jd-descr (summary) -->
+
+<!-- Details -->
+
+
+
+
+
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- ========= ENUM CONSTANTS DETAIL ======== -->
+<h2>Constants</h2>
+
+
+
+
+<A NAME="NETWORK_TOKEN"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        NETWORK_TOKEN
+    </h4>
+      <div class="api-level">
+        
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>When this type is used the credit card selected by the user will be tokenized
+ using network token APIs.
+
+ <p><code><a href="../../../../../../reference/com/google/android/gms/wallet/PaymentMethodTokenizationParameters.html">PaymentMethodTokenizationParameters</a></code> will need to contain a <code>"publicKey"</code>
+ parameter containing an Elliptic Curve public key suitable for using with the NIST P-126
+ curve.
+ <p><code><a href="../../../../../../reference/com/google/android/gms/wallet/FullWallet.html#getPaymentMethodToken()">getPaymentMethodToken()</a></code> will contain in
+ <code><a href="../../../../../../reference/com/google/android/gms/wallet/PaymentMethodToken.html#getToken()">getToken()</a></code> the JSON representation of an encrypted payment
+ credential containing the network token, cryptogram, expiration and CVV.
+ <p>Please refer to the
+ <a href="https://developers.google.com/android-pay/">documentation</a> for more information
+ regarding publicKey generation, decryption and parsing of the encrypted payment credential.
+</p></div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                2
+                (0x00000002)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="PAYMENT_GATEWAY"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        PAYMENT_GATEWAY
+    </h4>
+      <div class="api-level">
+        
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>When this type is used the credit card selected by the user will be tokenized
+ using payment gateway API. In this case corresponding <code><a href="../../../../../../reference/com/google/android/gms/wallet/FullWallet.html">FullWallet</a></code> will contain the
+ token that integrator can then use directly with their gateway to process the charge.
+ See <code><a href="../../../../../../reference/com/google/android/gms/wallet/PaymentMethodTokenizationParameters.html">PaymentMethodTokenizationParameters</a></code> for more details.
+</p></div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                1
+                (0x00000001)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+
+<!-- Fields -->
+
+
+<!-- Public ctors -->
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+<A NAME="navbar_top"></A>
+
+<div id="footer">
+
+</div> <!-- end footer -->
+
+</div> <!-- jd-content -->
+
+</div><!-- end doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize android-developer-docs.js */
+</script>
+
+</body>
+</html>

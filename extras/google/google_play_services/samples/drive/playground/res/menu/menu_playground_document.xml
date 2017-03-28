@@ -1,0 +1,15 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_undo_standard"
+        android:title="@string/undo_standard"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_undo_manual"
+        android:title="@string/undo_manual"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/action_undo_defined"
+        android:title="@string/undo_defined"
+        android:showAsAction="never" />
+</menu>
